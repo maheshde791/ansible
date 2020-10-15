@@ -1,0 +1,6 @@
+-
+  name: Test connectivity to target servesrs
+  hosts: all
+  tasks:
+  - name: Ping Test
+    ping:
